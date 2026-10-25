@@ -1,78 +1,178 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fashion and city</title>
+
+    <!-- SEO: Page title and description -->
+    <title>Fashion and City | Online Fashion Store</title>
+    <meta name="description" content="Discover the latest fashion at Fashion and City. Shop women's clothing, men's fashion, teen styles, shoes, bags and accessories.">
+    
+    <!-- Link to the CSS stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-            <!--navigation-->
-            <nav>
-                <a href="index.html"> Homepage </a> 
 
-                <a href="about.html"> About Us </a>
+    <!-- Announcement bar -->
+    <div class="announcement-bar">
+        Welcome to Fashion and City | Find Your Style
+    </div>
 
-                <a href="products.html"> Shop </a>
+    <!-- Website header -->
+    <header class="site-header">
 
-                <a href="enquiry.html"> Enquiry </a>
+        <div class="logo">
+            <a href="index.html">FASHION AND CITY</a>
+        </div>
 
-                <a href="contact.html"> Contact </a>
-                <a href="https://github.com/ST10528603/Fashion-and-City"> github </a>
-            </nav>
-        </header>
-        <main>
-        <Section>
-            <h2>WELCOME TO FASHION AND CITY</h2>
-            <img src="images/logo.png" alt="Fashion and City logo">
+        <!-- Main navigation -->
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">New In</a>
+            <a href="products.html">Women</a>
+            <a href="products.html">Men</a>
+            <a href="products.html">Kids</a>
+            <a href="products.html">Shoes</a>
+            <a href="products.html">Bags</a>
+            <a href="products.html">Accessories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="enquiry.html">Enquiry</a>
+        </nav>
 
-            <p>
-                Discover modern fashion designed to help you express
-                 your personal style with confident.
+    </header>
+     <a class="logo" href="#home">FASHION AND CITY</a>
+
+    <form class="search" id="searchForm">
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="Search products..."
+        aria-label="Search products">
+      <button type="submit">SEARCH</button>
+    </form>
+
+    <div class="header-links">
+      <a href="#products">♡ Wishlist</a>
+      <a href="#products">Bag (<span id="cartCount">0</span>)</a>
+    </div>
+
+    <!-- Main homepage content -->
+    <main>
+
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-small-text">YOUR STYLE, YOUR WAY</p>
+
+                <h1>Discover Your Next Favourite Look</h1>
+
+                <p>
+                    Explore fashion for every mood, every moment
+                    and every version of you.
+                </p>
+
+                <a href="products.html" class="shop-button">
+                    SHOP NOW
+                </a>
+            </div>
+        </section>
+
+        <!-- Shopping categories -->
+        <section class="categories section">
+
+            <h2>SHOP BY CATEGORY</h2>
+
+            <p class="section-intro">
+                Explore our latest styles for everyone.
             </p>
-            <h2>Our Style</h2>
-            <p>
-                Fashion and City brings together the stylish and comfortable
-                clothing for the people who want to stand out and feel confident.
+
+            <div class="category-grid">
+
+                <a href="products.html" class="category-card">
+                    <img src="Images/Chic High-Waist Denim_ Street & Casual Looks.jpg" alt="Women's fashion">
+                    <h3>WOMEN</h3>
+                </a>
+
+                <a href="products.html" class="category-card">
+                    <img src="Images/swavvymen'ssolidcolor.jpg" alt="Men's fashion">
+                    <h3>MEN</h3>
+                </a>
+
+                <a href="products.html" class="category-card">
+                    <img src="Images/Streetwearaesthetic.jpg" alt="Teen fashion">
+                    <h3>TEENS</h3>
+                </a>
+
+                <a href="products.html" class="category-card">
+                    <img src="Images/BlackMeshBalletFlats.jpg" alt="Fashion shoes">
+                    <h3>SHOES</h3>
+                </a>
+
+                <a href="products.html" class="category-card">
+                    <img src="Images/hobo bags 🛍️🫩.jpg" alt="Fashion bags">
+                    <h3>BAGS</h3>
+                </a>
+
+                <a href="products.html" class="category-card">
+                    <img src="Images/Elegantvintageset.jpg" alt="Fashion accessories">
+                    <h3>ACCESSORIES</h3>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Featured collection -->
+        <section class="featured section">
+
+            <h2>FEATURED COLLECTION</h2>
+
+            <p class="section-intro">
+                Discover styles you will love.
             </p>
-            <p>
-                We believe fashion should allow people 
-                to express their individual style.
-            </p>
-            <h3>Customer Satisfaction</h3>
-            <p>
-                We aim to create a positive and enjoyable experience
-                for every customers.
-            </p>
-            <h3>Our Value</h3>
-            <!--Value-->
-            <p>
-                Style- We help our customers show their personality through the clothes to wear.
-                Creativity- We use new and creative ideas to keep our fashion fresh and interesting.
-                Customer Satisfaction- We want our customers to have a good experience when using 
-                our website and buying our products.
-                Inclusivity- We believe everyone should be able to enjoy fashion, no matter their style.
-                Confidence- We want our clothing to help people feel comfortable and confident in themselves. 
-            </p>
-            <h3>Quality</h3>
-            <p>
-                We aim to provide clothing that customers can 
-                enjoy and wear with confidence. 
-            </p>
-            <h2>Vist Our GitHub</h2>
+
+            <div class="product-grid">
+
+                <article class="product-card">
+                    <img src="Images/yellowco-ord.jpg" alt="Women's fashion outfit">
+                    <h3>Women's Collection</h3>
+                    <p>Explore the latest looks.</p>
+                    <a href="products.html">Shop Collection</a>
+                </article>
+
+                <article class="product-card">
+                    <img src="Images/casual.jpg" alt="Men's fashion outfit">
+                    <h3>Men's Collection</h3>
+                    <p>Everyday style made simple.</p>
+                    <a href="products.html">Shop Collection</a>
+                </article>
+
+                <article class="product-card">
+                    <img src="Images/colorfulties.jpg" alt="Shoes and accessories">
+                    <h3>Shoes and Accessories</h3>
+                    <p>Complete your outfit.</p>
+                    <a href="products.html">Shop Collection</a>
+                </article>
+
+            </div>
+             <h2>Vist Our GitHub</h2>
             <!-- Replace the link with your own GitHub URL -->
             <p>
                 Explore the Fashion and City website project on GitHub.
             </p>
-        </Section>
-        <h3>Youtube Videos</h3> 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_Jc3-R5i33U?si=5yivGbFgW65ajJ3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/QOCPomgma10?si=DYCq-7NZju68LiE-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/KGkziQ8RE3U?si=UD4Fk1OAZlqI62JJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-   </main>
-   <footer>
-        &copy; 2026 Fashion and City. All rights reserved. 
-   </footer> 
-</body>
-</html>
+        </section>
+
+    </main>
+
+    <!-- Website footer -->
+    <footer class="site-footer">
+        <h3>FASHION AND CITY</h3>
+
+        <p>Fashion for every style and every moment.</p>
+
+        <p>
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact Us</a> |
+            <a href

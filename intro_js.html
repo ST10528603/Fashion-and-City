@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript| Fashion and City </title>
+</head>
+
+<head>
+
+    <!-- ADD YOUR HOT-PINK CSS HERE -->
+    <style>
+        body {
+            background-color: hotpink;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            background-color: white;
+            color: deeppink;
+            border: 2px solid deeppink;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: deeppink;
+            color: white;
+        }
+
+        #name {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 25px;
+        }
+        .welcome-image {
+    width: 800px;
+    max-width: 95%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+}
+
+    </style>
+</head>
+
+<body>
+    <h1>Introduction to JavaScript</h1>
+    <button onclick="Welcome()"> Click Me</button> <br> <br>
+    <!-- Button to ask the visitor's name -->
+    <button onclick="changeColour()">Try Me</button>
+     <!-- The visitor's name will appear here -->
+     <button onclick="prompting()">Enter Your Name</button>
+     <p id="name"></p>
+      <img src="Images/fashion-welcome.png"
+     alt="Fashion and City clothing collection"
+     class="welcome-image">
+    <script>
+    function Welcome() {
+        alert("Welcome to the Fashion and City Website");
+    }
+
+    function prompting() {
+        let a = prompt("Please enter your name");
+    
+        if (a !== null && a.trim() !== "") {
+            document.getElementById("name").textContent =
+                "Welcome to Fashion and City, " + a + "!";
+        } else if (a !== null) {
+            document.getElementById("name").textContent =
+                "Please enter your name.";
+        }
+    }
+
+    function changeColour() {
+        document.body.style.backgroundColor = "lightblue";
+    }
+     </script>
+</body>
+</html>
