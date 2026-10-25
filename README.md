@@ -18,6 +18,7 @@ Responsive design for phones and tablets
 
 ## Changelog
 I made some changes to my website from part relating to my feedback on part one. I updated the layout, improved the design by adding a new logo, and made the website responsive so that it can work on phones and tablets. I also added new entries and made changes related to my work from part 1.
+IMproved website SEO. Added JavaScript wishlist and shopping message, Updated the website styling and images.
 
 ## Technologies used 
 HTML
