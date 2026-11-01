@@ -62,18 +62,20 @@
     <button onclick="Welcome()"> Click Me</button> <br> <br>
     <!-- Button to ask the visitor's name -->
     <button onclick="changeColour()">Try Me</button>
+
      <!-- The visitor's name will appear here -->
      <button onclick="prompting()">Enter Your Name</button>
      <p id="name"></p>
+
       <img src="Images/fashion-welcome.png"
      alt="Fashion and City clothing collection"
      class="welcome-image">
+
     <script>
     function Welcome() {
         alert("Welcome to the Fashion and City Website");
     }
-
-    function prompting() {
+     function prompting() {
         let a = prompt("Please enter your name");
     
         if (a !== null && a.trim() !== "") {
