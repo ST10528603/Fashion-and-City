@@ -718,6 +718,149 @@ footer a:hover {
 .social-media a:hover {
     background-color: #d90075;
 }
+/* =================================
+   FASHION AND CITY - MAIN CSS
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Announcement bar */
+.announcement-bar {
+    background-color: #ff1493;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Website header */
+.site-header {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.logo a {
+    color: #ff1493;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Navigation */
+nav {
+    background-color: #ff1493;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe4f0;
+}
+
+/* Main content */
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+h1, h2, h3 {
+    color: #d41475;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    background-color: #c71585;
+}
+
+/* Forms */
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ff69b4;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #ff1493;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    main {
+        padding: 20px 12px;
+    }
+
+    .site-header {
+        padding: 15px;
+    }
+}
+/* Control website image sizes */
+img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 
 
