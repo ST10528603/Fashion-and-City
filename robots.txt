@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://github.com/ST10528603/Fashion-and-City.git/sitemap.xml
