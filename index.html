@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO: Page title and description -->
-    <title>Fashion and City | Online Fashion Store</title>
-    <meta name="description" content="Discover the latest fashion at Fashion and City. Shop women's clothing, men's fashion, teen styles, shoes, bags and accessories.">
+     <title>Fashion and City | Online Fashion Store</title>
+<meta name="description" content="Discover stylish women's, men's and teen fashion, shoes, bags and accessories at Fashion and City. Find your style today.">
     
-    <!-- Link to the CSS stylesheet -->
+     <!-- Link to the CSS stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
+<main>
 <body>
 
     <!-- Announcement bar -->
@@ -44,41 +44,81 @@
 
     </header>
      <a class="logo" href="#home">FASHION AND CITY</a>
+    <img src="Images/Fashion and City logo.png"
+         alt="Fashion and City logo"
+         class="site-logo">
 
-    <form class="search" id="searchForm">
-      <input
-        type="search"
-        id="searchInput"
-        placeholder="Search products..."
-        aria-label="Search products">
-      <button type="submit">SEARCH</button>
+
+
+        <div>
+            <h1>Fashion and City</h1>
+            <p>YOUR STYLE, YOUR WAY</p>
+        </div>
+    </a>
+
+    <form class="header-search" action="products.html" method="get">
+        <input type="search"
+               name="search"
+               placeholder="Search products..."
+               aria-label="Search products">
+
+        <button type="submit" aria-label="Search">⌕</button>
     </form>
 
-    <div class="header-links">
-      <a href="#products">♡ Wishlist</a>
-      <a href="#products">Bag (<span id="cartCount">0</span>)</a>
+    <div class="header-actions">
+
+        <a href="products.html#wishlist" class="header-action">
+            ♡ <span>Wishlist</span>
+            <span class="count" id="wishlist-count">0</span>
+        </a>
+
+        <a href="products.html#cart" class="header-action">
+            ♧ <span>Bag</span>
+            <span class="count" id="cart-count">0</span>
+        </a>
+
     </div>
 
-    <!-- Main homepage content -->
-    <main>
+</header>
 
-        <!-- Hero section -->
-        <section class="hero">
-            <div class="hero-content">
-                <p class="hero-small-text">YOUR STYLE, YOUR WAY</p>
+<!-- MAIN NAVIGATION -->
 
-                <h1>Discover Your Next Favourite Look</h1>
+<nav class="main-navigation">
 
-                <p>
-                    Explore fashion for every mood, every moment
-                    and every version of you.
-                </p>
+    <a href="index.html">HOME</a>
+    <a href="products.html#womens-fashion">WOMEN</a>
+    <a href="products.html#mens-fashion">MEN</a>
+    <a href="products.html#teen-fashion">TEENAGERS</a>
+    <a href="products.html#shoes">SHOES</a>
+    <a href="products.html#bags">BAGS</a>
+    <a href="products.html#accessories">ACCESSORIES</a>
+    <a href="about.html">ABOUT US</a>
+    <a href="contact.html">CONTACT US</a>
 
-                <a href="products.html" class="shop-button">
-                    SHOP NOW
-                </a>
-            </div>
-        </section>
+</nav>
+
+<!-- HOMEPAGE HERO BANNER -->
+
+<section class="fashion-hero">
+
+    <div class="hero-text">
+
+        <p class="new-collection">NEW COLLECTION</p>
+
+        <h2>
+            Elevate Your
+            <span>Everyday</span>
+        </h2>
+
+        <p class="hero-description">
+            Trendy styles, beautiful outfits and looks
+            that make you stand out.
+        </p>
+         <p>New trends. Beautiful outfits. Your perfect style.</p>
+
+        <a href="products.html" class="shop-now-btn">
+            SHOP NOW
+</section>
 
         <!-- Shopping categories -->
         <section class="categories section">
@@ -157,22 +197,61 @@
                 </article>
 
             </div>
-             <h2>Vist Our GitHub</h2>
-            <!-- Replace the link with your own GitHub URL -->
-            <p>
-                Explore the Fashion and City website project on GitHub.
-            </p>
+            
         </section>
+        <h3>Youtube Videos</h3> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_Jc3-R5i33U?si=5yivGbFgW65ajJ3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/QOCPomgma10?si=DYCq-7NZju68LiE-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    </main>
+        
+<!-- OFF-PAGE SEO: SOCIAL MEDIA -->
 
-    <!-- Website footer -->
+<section class="social-media">
+    <h2>FOLLOW FASHION AND CITY</h2>
+
+    <p>Stay connected with our latest fashion trends!</p>
+
+    <a href="https://www.instagram.com/"
+       target="_blank" rel="noopener noreferrer">
+       Instagram
+    </a>
+
+    <a href="https://www.tiktok.com/"
+       target="_blank" rel="noopener noreferrer">
+       TikTok
+    </a>
+
+    <a href="https://www.facebook.com/"
+       target="_blank" rel="noopener noreferrer">
+       Facebook
+    </a>
+</section>
+
+    </section>
+</main>
+     <!-- Website footer -->
     <footer class="site-footer">
+
         <h3>FASHION AND CITY</h3>
 
         <p>Fashion for every style and every moment.</p>
 
+        <!-- Footer navigation -->
         <p>
+            <a href="index.html">Home</a> |
             <a href="about.html">About Us</a> |
-            <a href="contact.html">Contact Us</a> |
-            <a href
+            <a href="products.html">Shop</a> |
+            <a href="enquiry.html">Enquiry</a> |
+            <a href="contact.html">Contact</a>
+        </p>
+
+        <p>&copy; 2026 Fashion and City. All rights reserved.</p>
+
+    </footer>
+      <script src="intro_js.html"></script>
+</body>
+</html>
+
+
+
+
